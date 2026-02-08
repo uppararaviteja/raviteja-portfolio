@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: var(--text-dark);
   background-color: var(--bg-light);
@@ -70,12 +70,14 @@ body {
   animation: fadeInDown 1s ease-out 0.2s backwards;
 }
 
-.experience {
+.hero .experience {
   font-size: 1.1rem;
   margin-bottom: 30px;
   opacity: 0.9;
   position: relative;
   animation: fadeInDown 1s ease-out 0.4s backwards;
+  color: white;
+  background: transparent;
 }
 
 .contact {
@@ -428,6 +430,37 @@ section {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Resume Download Button */
+.resume-download {
+  margin-top: 30px;
+  animation: fadeInUp 1s ease-out 0.8s backwards;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  background: white;
+  color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.download-btn svg {
+  stroke: var(--primary-color);
 }
 
 /* Responsive Design */
