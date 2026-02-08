@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif;
   line-height: 1.6;
   color: var(--text-dark);
   background-color: var(--bg-light);
@@ -70,14 +70,12 @@ body {
   animation: fadeInDown 1s ease-out 0.2s backwards;
 }
 
-.hero .experience {
+.experience {
   font-size: 1.1rem;
   margin-bottom: 30px;
   opacity: 0.9;
   position: relative;
   animation: fadeInDown 1s ease-out 0.4s backwards;
-  color: white;
-  background: transparent;
 }
 
 .contact {
